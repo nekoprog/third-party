@@ -6,7 +6,7 @@ cd src
 
 
 if [ ! -d "libbcrypt" ]; then
-    git clone https://github.com/litespeedtech/libbcrypt.git
+    git clone https://github.com/nekoprog/libbcrypt.git
 fi
 cd libbcrypt
 make
